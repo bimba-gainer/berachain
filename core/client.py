@@ -5,7 +5,7 @@ from contracts.BeraAddLiquidity import BeraAddLiquidity
 from contracts.faucet import Faucet
 from models.coins import Coins
 
-from config import capsolver_token, delay_actions
+from config import twocaptcha_token, delay_actions  # Замените capsolver_token на twocaptcha_token
 from utils.file_manager import append_to_txt
 from utils.logs import logger
 
@@ -25,7 +25,7 @@ class Client:
         self.bera_stake = BeraStake(self.account)
 
         self.faucet = Faucet(
-            token=capsolver_token,
+            token=twocaptcha_token,
             address=self.bera_swap.address,
             proxy=self.account.proxy
         )

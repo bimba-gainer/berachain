@@ -1,6 +1,6 @@
 
-# токен для разгадывания капчи https://www.capsolver.com/
-capsolver_token = ""
+# токен для разгадывания капчи https://www.2captcha.com/
+twocaptcha_token = ""
 
 # использовать прокси True/False
 useProxies = True

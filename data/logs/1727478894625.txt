@@ -1,0 +1,23 @@
+[2024-09-27 23:14:55] | INFO      | __init__:21 | c8441..f9794 запуск бота..
+[2024-09-27 23:23:25] | INFO      | start_farming:32 | 0xd68..3d4ca запуск..
+[2024-09-27 23:23:25] | INFO      | create_task:17 | 0xd68..3d4ca создаем задачу для решения капчи..
+[2024-09-27 23:23:25] | INFO      | create_task:29 | 0xd68..3d4ca задача на решение капчи создана 77539462681..
+[2024-09-27 23:23:31] | INFO      | task_status:46 | 0xd68..3d4ca капча еще не решена, повторяю попытку..
+[2024-09-27 23:23:36] | INFO      | task_status:50 | 0xd68..3d4ca капча решена
+[2024-09-27 23:23:37] | SUCCESS   | get_token:67 | 0xd68..3d4ca получили токены BERA
+[2024-09-27 23:23:37] | INFO      | sleep:39 | 0xd68..3d4ca ожидаем 37 сек..
+[2024-09-27 23:24:19] | SUCCESS   | send_transaction:45 | 0xd68..3d4ca swap 30b057b05cdf95646808596872c217965f0e3ed6e8b3cb9f307c425a21cecfa4
+[2024-09-27 23:24:19] | INFO      | sleep:39 | 0xd68..3d4ca ожидаем 46 сек..
+[2024-09-27 23:25:11] | SUCCESS   | send_transaction:45 | 0xd68..3d4ca wrap 7722453c00d2bbb0d3f7b16193766af8a5fd5909ffd57e37be0b958304aaea30
+[2024-09-27 23:25:11] | INFO      | sleep:39 | 0xd68..3d4ca ожидаем 47 сек..
+[2024-09-27 23:26:02] | SUCCESS   | send_transaction:45 | 0xd68..3d4ca approve 65e3dcc4584d9442a69e5ed966dc68fe677c948854bea356322410ed7e9f0c24
+[2024-09-27 23:26:04] | SUCCESS   | send_transaction:45 | 0xd68..3d4ca approve a42ee987023548e460f47a071a62392cb2b8ccfc25551e60efa7dbe0f2b73eac
+[2024-09-27 23:26:04] | INFO      | add_liq:123 | 0xd68..3d4ca добавление в пулл 8.289036 HONEY..
+[2024-09-27 23:26:08] | SUCCESS   | send_transaction:45 | 0xd68..3d4ca add liquidity ffcfaee18732a87af27e7896e7b14616b199d6d4aabd82aa21c5adbc00d095b1
+[2024-09-27 23:26:08] | INFO      | sleep:39 | 0xd68..3d4ca ожидаем 52 сек..
+[2024-09-27 23:27:10] | SUCCESS   | send_transaction:45 | 0xd68..3d4ca approve b758b92beb50deba78125f76a8cc35bbc0f6c22819b64baf9800c747eddd04a7
+[2024-09-27 23:27:10] | INFO      | stake:143 | 0xd68..3d4ca будет застейкано 1.968388933832249645 HONEY-WBERA-LP
+[2024-09-27 23:27:14] | SUCCESS   | send_transaction:45 | 0xd68..3d4ca stake bbb933b730f3dd08ef6d4ff48a015fd989c9b5a780113a41e5e827c6e32e2026
+[2024-09-27 23:27:14] | INFO      | sleep:39 | 0xd68..3d4ca ожидаем 43 сек..
+[2024-09-27 23:28:00] | SUCCESS   | send_transaction:45 | 0xd68..3d4ca claim rewards 9616b963964990f567e802349432c48aca30831911e69f6c9e3ec36e53c09e4d
+[2024-09-27 23:28:00] | INFO      | start:159 | 0xd68..3d4ca на счёте 0.000002 BGT
