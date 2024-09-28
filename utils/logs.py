@@ -7,7 +7,7 @@ def error_info():
     errs = traceback.extract_tb(sys.exc_info()[2])
     message = ""
     for err in errs:
-        message += f"{os.path.splitext(os.path.basename(err.filename))[0]}:{err.name}:{err.end_lineno}/"
+        message += f"{os.path.splitext(os.path.basename(err.filename))[0]}:{err.name}:{err.lineno}/"
     return message[:-1]
 
 def format_message(record):
