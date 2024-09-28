@@ -61,7 +61,7 @@ class Default:
                                    hex(amount if amount != 0 else self.infinite))
         else:
             contract_instance = self.w3.eth.contract(address=contract.address, abi=contract.abi)
-            data = contract_instance.encode_abi(
+            data = contract_instance.encodeABI(
                 "approve",
                 args=(
                     spender,
