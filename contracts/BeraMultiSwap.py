@@ -22,7 +22,7 @@ class BeraMultiSwap(Default):
     def swap_bera(self, address, amount):
         price = self.get_price(address)
 
-        data = self.contract.encode_abi("multiSwap", args=(
+        data = self.contract.encodeABI("multiSwap", args=(
             [(36000, address, "0x0000000000000000000000000000000000000000", False)],
             int(self.gwei_to_wei(amount)),
             int(self.gwei_to_wei(amount/price*Decimal(0.99)))
